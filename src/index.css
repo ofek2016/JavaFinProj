@@ -1,13 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+body{
+  font-family:"Scurce Sans Pro",Sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background-image: url('./img/7aab32b4eaaef044887908f8aa922a1c.jpg') ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: darkslategrey;
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px ;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:0.2em;
+  justify-content: center;
+}
+
+h2{
+  background-color:aliceblue;
+}
+
+Nav{
+  max-height: 100px;
+}
+#imgcard{
+  width:14rem
 }
